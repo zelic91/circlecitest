@@ -1,0 +1,4 @@
+test:
+  override:
+    - ./gradlew assembleRelease
+    - cp -r circlecitest/build/outputs $CIRCLE_ARTIFACTS
