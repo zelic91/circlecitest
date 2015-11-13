@@ -1,4 +1,4 @@
 test:
   override:
     - ./gradlew assembleRelease
-    - cp -r home/ubuntu/circlecitest/build/outputs $CIRCLE_ARTIFACTS
+    - cp -r /home/ubuntu/circlecitest/build/outputs $CIRCLE_ARTIFACTS
